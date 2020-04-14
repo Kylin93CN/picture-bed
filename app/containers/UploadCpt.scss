@@ -1,0 +1,32 @@
+.container {
+  margin-top: 20px;
+  .header {
+    height: 40px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(241, 232, 232);
+  }
+
+  .dragText {
+    font-size: 16px;
+    color: rgb(241, 232, 232);
+    padding-top: 20px;
+  }
+
+  .dragger {
+    :global {
+      .anticon-cloud-upload {
+        font-size: 50px;
+      }
+      .ant-upload-drag {
+        background-color: #1C2D28;
+        width: 70%;
+        height: 220px;
+        margin: 40px auto;
+        border: dashed 2px rgb(221, 208, 208);
+      }
+    }
+  }
+
+}
+

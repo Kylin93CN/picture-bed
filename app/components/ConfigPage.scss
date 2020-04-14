@@ -1,0 +1,42 @@
+.formContainer {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  .input {
+    border-radius: 15px;
+    height: 28px;
+    width: 300px;
+    &::-webkit-input-placeholder {
+      /* placeholder字体大小  */
+      font-size: 12px;
+    }
+  }
+  .btn {
+    height: 30px;
+    border-radius: 15px;
+    width: 100px;
+  }
+
+
+  :global {
+    .ant-form-horizontal {
+      width: 500px;
+    }
+    .ant-form-item-required {
+      color: rgb(241, 232, 232);
+    }
+    .ant-form-item-label > label {
+      color: rgb(241, 232, 232);
+    }
+    .ant-input-group-addon {
+      border-radius: 20px 0 0 20px;
+      height: 28px;
+    }
+    .ant-input-group input {
+      border-radius: 0 20px 20px 0;
+      width: 218px;
+      height: 28px;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import '~antd/dist/antd.css';
+
+.container {
+  display: flex;
+}
+
+.left-nav {
+  padding: 30px 20px;
+  width: 17%;
+  height: 100vh;
+  background-image: linear-gradient(#182318, #182F1C);
+  opacity: 0.95;
+}
+.left-nav ul {
+  list-style-type: none;
+  margin:0; padding:0;
+}
+.nav {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.nav span {
+
+  color: #85888E;
+
+}
+.nav a {
+  padding-left: 10px;
+  color: #E7E8E7;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.right-content {
+  flex: 1;
+  padding: 10px;
+  background-image: linear-gradient(#1C2D28, #2A3436);
+  opacity: 0.95;
+}
